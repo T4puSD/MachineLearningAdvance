@@ -1,0 +1,5 @@
+you need to include filewriter in program(in session ) that will save event in a directory named graphs then 
+writer = tf.summary.FileWriter('./graphs',sess.graph)
+
+from cmd change the base directory here and type:
+python -m tensorboard.main --logdir=./graphs port6006
